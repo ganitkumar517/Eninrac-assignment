@@ -38,13 +38,13 @@ export default function Footer() {
             </div >
             <div className='text-center px-4 flex flex-col gap-2'>
                 <div className='flex items-center justify-between px-1'>
-                    <img src={Facebook} className='border rounded-full bg-slate-400'></img>
-                    <img src={Tweeter} className='border rounded-full bg-slate-400'></img>
+                    <img src={Facebook} className='border rounded-full bg-slate-400 cursor-pointer'></img>
+                    <img src={Tweeter} className='border rounded-full bg-slate-400 cursor-pointer'></img>
                 </div>
                 <span className='text-[#5E6282] text-xl'>Discover our app</span>
                 <div className='flex items-center justify-between gap-4 mt-2'>
-                    <img src={Playstore}></img>
-                    <img src={Appstore}></img>
+                    <img src={Playstore} className='cursor-pointer'></img>
+                    <img src={Appstore} className='cursor-pointer'></img>
                 </div>
             </div>
         </footer >

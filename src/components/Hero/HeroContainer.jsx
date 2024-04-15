@@ -11,7 +11,7 @@ export default function HeroContainer() {
                 <p className='w-[477px] text-[#5E6282]'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
                 <div className='flex w-[372px] justify-between'>
                     <button className='bg-[#F1A501] rounded-[10px] drop-shadow-custom h-[60px] w-[170px]'>Find out more</button>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2 cursor-pointer'>
                         <img src={Play_Button}></img>
                         <p>Play more</p>
                     </div>
