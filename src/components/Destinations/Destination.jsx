@@ -28,7 +28,7 @@ export default function Destination() {
         },
     ]
     return (
-        <div>
+        <section id='destination'>
             <div className='text-center mb-[67px]'>
                 <p className='uppercase text-[#5E6282] text-lg'>Category</p>
                 <h1 className='text-[50px] font-bold text-[#14183E]'>We Offer Best</h1>
@@ -52,6 +52,6 @@ export default function Destination() {
                     ))
                 }
             </div>
-        </div>
+        </section>
     )
 }

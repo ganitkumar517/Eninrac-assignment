@@ -28,7 +28,7 @@ export default function Booking() {
         },
     ]
     return (
-        <div className='flex items-center justify-between'>
+        <section className='flex items-center justify-between'>
             <div className='flex flex-col gap-6'>
                 <p className='text-lg text-[#5E6282]'>Easy and Fast</p>
                 <h1 className='text-[50px] text-[#14183E] w-[511px] font-bold leading-[54px]'>Book your next trip in 3 easy steps</h1>
@@ -70,6 +70,6 @@ export default function Booking() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

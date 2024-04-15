@@ -32,7 +32,7 @@ export default function Service() {
     ]
 
     return (
-        <div>
+        <section>
             <img src={Cross} className='absolute right-12'></img>
             <div className='text-center mb-[67px]'>
                 <p className='uppercase text-[#5E6282] text-lg'>Category</p>
@@ -55,6 +55,6 @@ export default function Service() {
                 ))
                 }
             </div>
-        </div>
+        </section>
     )
 }

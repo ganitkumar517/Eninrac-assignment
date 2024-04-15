@@ -4,7 +4,7 @@ import DP from '../../assets/background image/DP.png'
 import Pagination from '../../assets/Pagination.svg'
 export default function Testimonial() {
     return (
-        <div className='flex justify-between items-center'>
+        <section className='flex justify-between items-center'>
             <div>
                 <p className='text-lg text-[#5E6282]'>Testimonials</p>
                 <h1 className='text-[50px] text-[#14183E] w-[511px] font-bold leading-[54px]'>What people say about Us.</h1>
@@ -25,6 +25,6 @@ export default function Testimonial() {
                     <img src={Pagination}></img>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

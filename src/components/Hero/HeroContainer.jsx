@@ -4,7 +4,7 @@ import Hero_image from "../../assets/hero-image.png"
 
 export default function HeroContainer() {
     return (
-        <div className='flex items-center justify-between'>
+        <section className='flex items-center justify-between'>
             <div className='flex flex-col gap-8'>
                 <p className='text-xl text-[#DF6951] font-bold'>Best Destination around the world</p>
                 <div className='text-[80px] w-[545px] text-[#181E4B] font-bold leading-[89px]'>Travel, enjoy and live a new and full life</div>
@@ -20,6 +20,6 @@ export default function HeroContainer() {
             <div>
                 <img src={Hero_image}></img>
             </div>
-        </div>
+        </section>
     )
 }
