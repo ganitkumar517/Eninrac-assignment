@@ -9,6 +9,9 @@ export default {
       height: {
         "fill-available": "-webkit-fill-available",
       },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(180deg, #ff946d 0%, #ff7d68 100%)",
+      },
     },
     fontFamily: {
       Volkhov: ["Volkhov"],
