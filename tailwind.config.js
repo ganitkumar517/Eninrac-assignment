@@ -6,6 +6,9 @@ export default {
       dropShadow: {
         custom: "0px 20px 35px rgba(241,165,1,0.15)",
       },
+      height: {
+        "fill-available": "-webkit-fill-available",
+      },
     },
     fontFamily: {
       Volkhov: ["Volkhov"],
