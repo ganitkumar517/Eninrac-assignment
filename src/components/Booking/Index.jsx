@@ -3,7 +3,7 @@ import Booking from './Booking'
 
 export default function Index() {
     return (
-        <div>
+        <div className='px-36'>
             <Booking />
         </div>
     )

@@ -38,7 +38,7 @@ export default function Service() {
                 <p className='uppercase text-[#5E6282] text-lg'>Category</p>
                 <h1 className='text-[50px] font-bold text-[#14183E]'>We Offer Best</h1>
             </div>
-            <div className='flex justify-around items-center '>
+            <div className='flex justify-between items-center '>
                 {services.map((ele, ind) => (
                     <div className={`w-48 text-center h-auto flex justify-center flex-col gap-4 relative bg-white  ${ind == 1 ? "rounded-[36px]" : ""} `}>
                         <div className='flex justify-center'>

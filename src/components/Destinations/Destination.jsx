@@ -33,7 +33,7 @@ export default function Destination() {
                 <p className='uppercase text-[#5E6282] text-lg'>Category</p>
                 <h1 className='text-[50px] font-bold text-[#14183E]'>We Offer Best</h1>
             </div>
-            <div className='flex justify-around items-center'>
+            <div className='flex justify-between items-center'>
                 {
                     destination.map((ele) => (
                         <div className='rounded-3xl relative border'>
